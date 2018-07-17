@@ -2,8 +2,10 @@
 build/
 tests/
 demo/
-lib/
+react-materials/layouts/**/lib/
+react-materials/blocks/**/lib/
 node_modules/
+scripts/
 
 # node 覆盖率文件
 coverage/
@@ -11,3 +13,8 @@ coverage/
 # 忽略文件
 **/*-min.js
 **/*.min.js
+
+# templorarily ignore tools
+tools/
+
+**/templates/**
